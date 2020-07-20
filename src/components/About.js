@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <section className="page-section bg-primary text-white mt-5" id="about">
+        <section className="page-section bg-primary text-white" id="about">
             <div className="container">
                 {/* About Section Heading*/}
                 <div className="text-center">

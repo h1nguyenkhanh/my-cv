@@ -1,0 +1,10 @@
+body {
+    padding-top: 104px;
+}
+
+.news-item a{
+    color: #2c3e50;
+}
+.news-item a:hover{
+    text-decoration: none;
+}

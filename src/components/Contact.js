@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
     return (
-        <section className="page-section mt-5" id="contact">
+        <section className="page-section" id="contact">
             <div className="container">
                 {/* Contact Section Heading*/}
                 <div className="text-center">

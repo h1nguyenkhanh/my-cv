@@ -1,21 +1,18 @@
 import React from 'react';
 import './App.css';
 import Nav from './components/Nav';
-import Home from './components/Home';
-import Portfolio from './components/Portfolio';
-import About from './components/About';
 import Footer from './components/Footer';
-import Contact from './components/Contact';
+import MyRouter from './route/MyRouter';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Home />
-      <Portfolio />
-      <About />
-      <Contact />
-      <Footer />
+      <Router>
+        <Nav />
+        <MyRouter />
+        <Footer />
+      </Router>
     </div>
   );
 }
